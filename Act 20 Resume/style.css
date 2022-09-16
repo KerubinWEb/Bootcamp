@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.full-bg {
+    background-image: url(./img/rear-view-programmer-working-all-night-long.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+}
+
+.container h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: orange;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    text-shadow: 5px 5px black;
+}
+.container span {
+    color: #1CD6CE;
+}
+.col-lg-4 img {
+    border-radius: 50%;
+    box-shadow: 5px 5px black;
+}
+.col-lg-8 h2 {
+    font-size: 45px;
+    color: orange;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+.col-lg-8 {
+    padding-top: 7%;
+}
+.col-lg-8 p {
+    font-size: 20px;
+    color: orange;
+    font-weight: 700;
+    text-shadow: 2px 2px black;
+}
+.card img {
+    box-shadow: 5px 5px red;
+    width: 300px;
+    height: 200px;
+}
+.card img:hover {
+    transform: scale(1.5);
+}
+.card-body h4 {
+    color:orange ;
+    font-weight: 500;
+    text-shadow: 2px 2px black;
+}
+.card-body a{
+
+      background-color: rgb(255, 0, 68);
+      box-shadow: inset 0 0 0 0.3;
+      transition: ease-out 0.5s;
+      outline: none;
+      width: 100px;
+}
+.card-body a:hover{
+    box-shadow: inset 300px 0 0 0 #f9e506;
+      cursor: pointer;
+      color: #000;
+}
+
+.footer h6 {
+    color:orange ;
+    font-weight: 300;
+    text-shadow: 2px 2px black;
+}
+.footer span{
+    border: 1px solid orange ;
+    background-color: orange;
+    margin: 0 10px;
+}
+.logo img{
+    background-color: orange;
+    margin-left: 5px;
+    box-shadow: 2px 2px black;
+}
+
+.logo img:hover {
+    background-color: red;
+}

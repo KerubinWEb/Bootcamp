@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating Form</title>
+</head>
+
+<body>
+    <h1>Registration Form 1</h1>
+    <form action="">
+        First name:
+        <input type="text" name="first_name" placeholder="ex.Pablo" /><br />
+        Last name: <input type="text" name="lastname_name" />
+    </form>
+    <h1>Registration Form</h1>
+    <form action="">
+        Username: <input type="text" name="username" /><br />
+        password: <input type="password" name="password" />
+    </form>
+
+    <h1>Registration Form 3</h1>
+    <form action="">
+        <textarea name="description" id="" cols="30" rows="10">
+            Enter description
+        </textarea>
+    </form>
+
+    <h1>Registration Form 4</h1>
+    <form action="">
+        <input type="checkbox" name="html" value="on" />HTML
+        <input type="checkbox" name="css" value="on" />CSS
+        <input type="checkbox" name="js" value="on" />Javascript
+    </form>
+
+    <h1>Registration Form 5</h1>
+    <form action="">
+        <input type="radio" name="gender" value="male" />Male
+        <input type="radio" name="gender" value="female" />Female
+        <input type="radio" name="gender" value="other" />Other
+    </form>
+
+    <h1>Registration Form 6</h1>
+    <select name="dropdown">
+        <option value="none" selected>Select One</option>
+        <option value="HTML">Html</option>
+        <option value="CSS">CSS</option>
+        <option value="Javascript">Javascript</option>
+    </select>
+
+    <h1>Registration Form 7</h1>
+    <form action="">
+        <input type="file" name="fileupload" accept="*" /><br />
+        <input type="submit" name="submit" value="submit" />
+    </form>
+
+    <h1>Registration Form 8</h1>
+    <form action="">
+        <input type="date" name="date" id="date" /><br />
+        <input type="range" name="range" min="0" max="100" step="2" value="range" /><br />
+        <input id="rangeInput" type="range" min="0" max="200" oninput="amount.value=rangeInput.value" />
+        <input id="amount" type="number" value="100" min="0" max="200" oninput="rangeInput.value=amount.value" /><br />
+        <input type="time" name="time" id="" /><br />
+        <input type="month" /><br />
+        <input type="week" /><br />
+        <input type="color" id="colorpicker" name="color" value="#ff0000" />
+    </form>
+</body>
+
+</html>

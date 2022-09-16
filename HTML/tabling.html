@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Tables</title>
+    <style>
+        table {
+            border: 2px solid white;
+            padding: 15px 50px 15px 50px;
+    background: var(--bg-color);
+    box-shadow: 0px 5px 40px rgb(19 8 73 / 13%);
+    border-radius: 20px;
+    transition: all .40s ease;
+        }
+        th,td {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        
+        div {
+            margin-left: 30px;
+            margin-top: 20px;
+        }
+        .head {
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Food Menu</h1>
+    <table>
+        <tr>
+            <th>Item</th>
+            <th>Price</th>
+            <th>type</th>
+        </tr>
+        <tr>
+            <td>Burger Combo</td>
+            <td>90 php</td>
+            <td>Combo Meal</td>
+        </tr>
+        <tr>
+            <td>Chicken Spaghetti</td>
+            <td>120 php</td>
+            <td>Combo Meal</td>
+        </tr>
+    </table>
+
+    <h1>Student Directory</h1>
+    <table>
+        <tr>
+            <th colspan="5">Student Grades</th>
+        </tr>
+        <tr>
+            <th colspan="2">Name</th>
+            <th rowspan="2">Prelim Grade</th>
+            <th rowspan="2">Midterm Grade</th>
+            <th rowspan="2">Tentative Final Grade</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        <tr>
+            <td>Edward</td>
+            <td>Stark</td>
+            <td>92</td>
+            <td>90</td>
+        </tr>
+    </table>
+    <h1>For Practice</h1>
+<div class="head">
+    
+    <div>
+        <table>
+            <tr>
+                <th colspan="2"><img src="img/fries.png" alt="" style="width:150px;"></th>
+            </tr>
+            <tr>
+                <th>Fries</th>
+                
+            </tr>
+            <tr>
+                <td>This is a best fries in the world</td>
+                
+            </tr>
+            <tr>
+                
+                <td>50 pesos</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Chicken</td>
+                <td>20 pesos</td>
+            </tr>
+            <tr>
+                <td>Adobo</td>
+                <td>50 pesos</td>
+            </tr>
+            <tr>
+                <td>Menudo</td>
+                <td>40 pesos</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>Menu</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Chicken</td>
+                <td>20 pesos</td>
+            </tr>
+            <tr>
+                <td>Adobo</td>
+                <td>50 pesos</td>
+            </tr>
+            <tr>
+                <td>Menudo</td>
+                <td>40 pesos</td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

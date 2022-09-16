@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISCP Employee Registration Form</title>
+</head>
+
+<body>
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png" alt="ISCP">
+    <div>
+    <form>
+        First Name: <input type="text" name="first_name" placeholder="ex.Juan"><br>
+        Last Name: <input type="text" name="last_name" placeholder="ex.Dela Cruz"><br>
+        Password: <input type="password" name="password" placeholder="ex.akosibudoy123"><br>
+        Confirm password: <input type="password" name="password" placeholder="ex.akosibudoy123"><br>
+        SSS ID: <input type="text" name="sss_id" placeholder="14 digits no."><br>
+        Pag-ibig ID: <input type="text" name="pagibig_id" placeholder="14 digits no."><br>
+        PhilHealth ID: <input type="text" name="philhealth_id" placeholder="14 digits no."><br>
+        Place of birth: <input type="text" name="place_birth" placeholder="ex.Manila"><br>
+        Birthdate: <input type="date" name="birthdate"><br>
+        Email: <input type="email" name="email" placeholder="ex.pogi@gmail.com"><br>
+        Barangay: <input type="text" name="barangay" placeholder="ex.Signal"><br>
+        City/Town: <input type="text" name="City" placeholder="ex.Taguig"><br>
+        Province: <input type="text" name="Province" placeholder="ex.NCR"><br>
+        Full Address: <input type="text" name="address" placeholder="ex.North Signal,Taguig City"><br>
+        Contact number(mobile): <input type="number" name="number" placeholder="ex.0954123111"><br>
+        Contact number(telephone): <input type="text" name="number"placeholder="(02)89111111"><br>
+    </form>
+    </div>
+    <div>
+        <p>Civil Status:</p>
+        <form action="">
+            <input type="radio" name="status">Single<br>
+            <input type="radio" name="status">Married<br>
+            <input type="radio" name="status">Widowed<br>
+            <input type="radio" name="status">Separated<br>
+            <p>Gender:</p>
+            <input type="radio" name="gender">Male<br>
+            <input type="radio" name="gender">Female<br>
+            <input type="radio" name="gender">other<br>
+        </form>
+    </div>
+    <div>
+        <p>Upload Image for Profile</p>
+        <form>
+            <input type="file" name="fileupload" accept="image/*"><br>
+            <input type="submit" name="submit" value="submit" />
+         <p>Upload Picture of Government ID</p>
+            <input type="file" name="fileupload" accept="image/*"><br>
+            <input type="submit" name="submit" value="submit" />   
+        </form>
+    </div>
+    <div>
+        <p>Mother's maiden Name:</p>
+        <form>
+            <input type="text" name="name" placeholder="ex.Ivana"><br>
+            <p>Father's Name:</p>
+            <input type="text" name="name" placeholder="ex.Rico Blanco"><br>
+            <p>Date Registered:</p>
+            <input type="date" name="date">
+            <p>Have you experienced any of the following in the last 30 days?</p>
+            <input type="checkbox" name="coughing" valu="on">Coughing<br>
+            <input type="checkbox" name="Fever" valu="on">Fever<br>
+            <input type="checkbox" name="Headache" valu="on">Headache<br>
+            <input type="checkbox" name="commond-cold" valu="on">Common Cold<br>
+            <input type="checkbox" name="bodyache" valu="on">Body ache<br>
+            <input type="checkbox" name="sorethroat" valu="on">Sore throat<br>
+            <input type="checkbox" name="tiredness" valu="on">Tiredness<br>
+            <input type="checkbox" name="LossofSmell" valu="on">Loss of Smell<br>
+            <p>Give a short description about yourself</p>
+            <textarea name="yourself"cols="30" rows="10">Ex.Handsome</textarea><br>
+            <input type="submit" name="submit" value="submit" />
+        </form>
+    </div>
+</body>
+</html>
